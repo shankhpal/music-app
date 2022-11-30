@@ -1,0 +1,19 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .firstcol{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    height: auto !important;
+    width: 100% !important;
+    vertical-align: middle;
+  
+  }
+  
+  .secondcol img{
+    width: 100% !important;
+    height: 100% !important;
+  }

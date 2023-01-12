@@ -15,7 +15,7 @@ function App() {
   const [search, setSearch] = useState("");
 
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header  className='mb-5' setSearch={(s) => setSearch(s)}/>
       <div  className='mt-5 pt-2'>
       <Routes>

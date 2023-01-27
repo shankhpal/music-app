@@ -11,3 +11,4 @@
 #JWT_SECRET = HRISHI123
 #NODE_ENV = development
 # run 'npm run dev' for base folder(..path/music-app) in terminal
+#PS C:\Users\Downloads\music-app> npm run dev  

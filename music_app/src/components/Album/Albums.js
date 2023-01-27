@@ -15,8 +15,6 @@ function Albums({ search }) {
   const albumList = useSelector((state) => state.listAlbums);
   const { loading, error, Albums } = albumList;
 
- 
-
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
 

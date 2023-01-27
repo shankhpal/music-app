@@ -76,6 +76,7 @@ export const listAlbumSongs = (id) => async (dispatch) => {
         type: ALBUM_CREATE_SUCCESS,
         payload: data,
       });
+      dispatch(listAlbums());
     } catch (error) {
       const message =
         error.response && error.response.data.message
@@ -106,6 +107,7 @@ export const listAlbumSongs = (id) => async (dispatch) => {
         type: ADD_SONG_SUCCESS,
         payload: data,
       });
+      dispatch(listAlbumSongs(id));
     } catch (error) {
       const message =
         error.response && error.response.data.message

@@ -50,7 +50,7 @@ const AddSongs = () => {
     
     setName('');
     setSong('')
-
+    navigate(`/songs/${id}`);
   };
 
   return (

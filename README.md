@@ -10,3 +10,4 @@
 #MONGO_URI = mongodb+srv://<Username>:<password>@cluster0.xjlzn.mongodb.net/?retryWrites=true&w=majority   -----> mongoatlas link or localMongoDb link
 #JWT_SECRET = HRISHI123
 #NODE_ENV = development
+# run 'npm run dev' for base folder(..path/music-app) in terminal
